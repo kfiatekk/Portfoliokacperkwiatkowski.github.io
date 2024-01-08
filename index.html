@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Kacper Kwiatkowski</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="">
+</head>
+<body>
+  <div class="ball"></div>
+    <header>
+      <nav class="">
+
+        <ul>
+            <li><a class="menu" href="#start">Start</a></li>
+            <li><a class="menu" href="#about">O mnie</a></li>
+            <li><a class="menu" href="#projekty">Projekty</a></li>
+            <li><a class="menu" href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      </header>
+      <section id="start">
+        <div class="kontener">
+            <div class="imie">
+                <h1>Cześć, jestem
+                <span class="kacper">Kacper</span>
+                <h2>UCZEŃ DRUGIEJ <br>KLASY TECHNIKUM</h2>
+                <div class="git">
+                    <a target="_blank" href="https://github.com/kfiatekk"><img class="git" src="git.png" ></a>
+                </div>
+            </div>
+            <img class="ja" src="szmeje.png" alt="">
+        </div>
+        <div class="umieje">
+            <h3>Uczę się |</h3>
+            <div class="hate">
+                <img class="html" src="html.png" alt="">
+                <img class="siszarp" src="siszarp.png" alt="">
+                <img class="python" src="python.png" alt="">
+            </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <article>
+            <h2 id="naglowek">O MNIE</h2>
+            <div id="divmnie">
+                <p class="omnie" id="text"></p>
+            </div>
+        </article>
+      </section>
+      <main class="projekty" id="projekty">
+        <div class="kont" id="portfolio">
+            <h2 class="text-center" id="naglowek">PROJEKTY</h2>
+        
+            <a class="pr" id="box" href="https://github.com/kfiatekk/puzle.git" target="_blank">
+              <img class="projektzdj" class="projektzdj" src="PUZLE.png" alt="Tribute Page">
+              <div class="overlay"></div>
+              <span class="napis">GIT HUB <img class="napiszdj" src="gimpson.png" alt=""></span>
+              <h4>SLIDING PUZZLE - GRA</h4>
+            </a>
+        
+            <a class="pr" href="https://github.com/kfiatekk/galeriakotow.git" target="_blank">
+              <img class="projektzdj" class="projektzdj" src="SLIDER.png" alt="Wikipedia Search">
+              <div class="overlay"></div>
+              <span class="napis">GIT HUB <img class="napiszdj" src="gimpson.png" alt=""></span>
+              <h4>SLIDER - GALERIA KOTÓW</h4>
+            </a>
+
+            <a class="pr" href="https://github.com/kfiatekk/gui.git" target="_blank">
+              <img class="projektzdj" class="projektzdj" src="gui.png" alt="Wikipedia Search">
+              <div class="overlay"></div>
+              <span class="napis">GIT HUB <img class="napiszdj" src="gimpson.png" alt=""></span>
+              <h4>GRAFICZNY INTERFEJS UŻYTKOWNIKA - WPF</h4>
+            </a>
+    
+          </div>
+      </main>
+      <section class="kontakt" id="kontakt">
+        <h2>Kontakt</h2>
+        <div class="section-title">
+        <section class="contact">
+          <img src="./images/Mail.gif" alt="mail-image" />
+          <form class="contact-form" action="https://formsubmit.io/send/kacperkwiatkowski07@gmail.com" method="POST">
+            <div class="contact-form-field">
+              <label for="name">Name</label>
+              <input placeholder="Wpisz swoje imie oraz nazwisko" type="text" name="name" required />
+            </div>
+            <div class="contact-form-field">
+              <label for="email">Email</label>
+              <input placeholder="Wpisz swój email" type="email" name="email" required/>
+            </div>
+            <div class="contact-form-field">
+              <label for="message">Name</label>
+              <textarea placeholder="Wpisz swoją wiadomość" name="message" cols="30" rows="8"></textarea>
+            </div>
+            <button class="contact-form-btn">Prześlij</button>
+            <input name="_redirect" type="hidden" id="name" value="https://your website url">
+          </form>
+      </section>
+</body>
+</html>
